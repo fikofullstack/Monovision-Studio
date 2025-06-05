@@ -70,9 +70,9 @@ select {
 [type="button"],
 [type="reset"],
 [type="submit"],
-/* button {
+button {
 	-webkit-appearance: button;
-} */
+}
 ::-moz-focus-inner {
 	border-style: none;
 	padding: 0;
@@ -94,7 +94,7 @@ progress {
 	height: auto;
 }
 [type="search"] {
-	/* -webkit-appearance: textfield; */
+	-webkit-appearance: textfield;
 	outline-offset: -2px;
 }
 ::-webkit-search-decoration {
